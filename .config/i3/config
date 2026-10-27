@@ -200,3 +200,7 @@ exec_always --no-startup-id fcitx5 -d
 
 # oskeyring
 exec --no-startup-id gnome-keyring-daemon --start --components=secrets
+
+# 亮度控制
+bindsym XF86MonBrightnessUp exec --no-startup-id brightnessctl set 2%+
+bindsym XF86MonBrightnessDown exec --no-startup-id brightnessctl set 2%-
